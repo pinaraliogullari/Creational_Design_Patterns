@@ -1,6 +1,7 @@
 ﻿
 // 1) Classtan new operatörü ile nesne üretilmesini engellemek için constructorını private yaptım.
-// 2) Artık New operatörü ile nesne üretilemeyecek ancak ilk instance ı talep edebilmek için static bir membera ihtiyacım var . Bu member bir metot veya property olabilir. Example classının nesne üretim sorumluluğu bu member tarafından üstlenilmiş olur.
+// 2) Artık New operatörü ile nesne üretilemeyecek ancak ilk instance ı talep edebilmek için static bir referans npktası alınır.
+// 3)Instance talep edilirken kullanılacak olan member tanımlanır. Bu member bir metot veya property olabilir. Example classının nesne üretim sorumluluğu bu member tarafından üstlenilmiş olur.
 
 Example ex = Example.GetInstance;
 Example ex1 = Example.GetInstance;
