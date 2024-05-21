@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiton_Design_Pattern_Pra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_Method_Design_Pattern_Pratic", "Factory_Method_Design_Pattern_Pratic\Factory_Method_Design_Pattern_Pratic.csproj", "{30B28D99-EB3D-4F72-8C43-F19919BF4C2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_Method_Design_Pattern_BankExample", "Factory_Method_Design_Pattern_BankExample\Factory_Method_Design_Pattern_BankExample.csproj", "{75963439-F049-40D5-B145-DEBC6B9CA7C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{30B28D99-EB3D-4F72-8C43-F19919BF4C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B28D99-EB3D-4F72-8C43-F19919BF4C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30B28D99-EB3D-4F72-8C43-F19919BF4C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75963439-F049-40D5-B145-DEBC6B9CA7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75963439-F049-40D5-B145-DEBC6B9CA7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75963439-F049-40D5-B145-DEBC6B9CA7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75963439-F049-40D5-B145-DEBC6B9CA7C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
