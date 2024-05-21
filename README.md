@@ -1,2 +1,5 @@
 # Creational_Design_Patterns
- Yo can find my exercises on Creational Design Patterns in this repository
+ You can find my exercises on Creational Design Patterns in this repository
+
+-- Singleton Design Pattern
+-- Multiton Design Pattern
