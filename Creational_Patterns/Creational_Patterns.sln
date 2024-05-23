@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_Method_Design_Patte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_Method_Design_Pattern_BankExample", "Factory_Method_Design_Pattern_BankExample\Factory_Method_Design_Pattern_BankExample.csproj", "{75963439-F049-40D5-B145-DEBC6B9CA7C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Factory_Design_Pattern_Pratic", "Abstract_Factory_Design_Pattern_Pratic\Abstract_Factory_Design_Pattern_Pratic.csproj", "{109FE1B0-6CDF-4597-921B-B61CC5105C37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract_Factory_Design_Pattern_Pratic", "Abstract_Factory_Design_Pattern_Pratic\Abstract_Factory_Design_Pattern_Pratic.csproj", "{109FE1B0-6CDF-4597-921B-B61CC5105C37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_Method_Design_Pattern_BankExample2", "Factory_Method_Design_Pattern_BankExample2\Factory_Method_Design_Pattern_BankExample2.csproj", "{96385AC9-5265-43A2-9827-B1091228274D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_Method_Design_Pattern_BankExample2", "Factory_Method_Design_Pattern_BankExample2\Factory_Method_Design_Pattern_BankExample2.csproj", "{96385AC9-5265-43A2-9827-B1091228274D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Factory_Design_Pattern_Pratic2", "Abstract_Factory_Design_Pattern_Pratic2\Abstract_Factory_Design_Pattern_Pratic2.csproj", "{7C1D138A-9350-4D14-A79E-A3A898FAEFB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract_Factory_Design_Pattern_Pratic2", "Abstract_Factory_Design_Pattern_Pratic2\Abstract_Factory_Design_Pattern_Pratic2.csproj", "{7C1D138A-9350-4D14-A79E-A3A898FAEFB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Factory_Design_Pattern_Example", "Abstract_Factory_Design_Pattern_Example\Abstract_Factory_Design_Pattern_Example.csproj", "{F6F645F3-4E38-4583-99B3-1CE595B5C3E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract_Factory_Design_Pattern_Example", "Abstract_Factory_Design_Pattern_Example\Abstract_Factory_Design_Pattern_Example.csproj", "{F6F645F3-4E38-4583-99B3-1CE595B5C3E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype_Design_Pattern_Pratic", "Prototype_Design_Pattern_Pratic\Prototype_Design_Pattern_Pratic.csproj", "{55E5F2C0-49BA-4531-9D80-6421A67AC1E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{F6F645F3-4E38-4583-99B3-1CE595B5C3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F645F3-4E38-4583-99B3-1CE595B5C3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F645F3-4E38-4583-99B3-1CE595B5C3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E5F2C0-49BA-4531-9D80-6421A67AC1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E5F2C0-49BA-4531-9D80-6421A67AC1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E5F2C0-49BA-4531-9D80-6421A67AC1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E5F2C0-49BA-4531-9D80-6421A67AC1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

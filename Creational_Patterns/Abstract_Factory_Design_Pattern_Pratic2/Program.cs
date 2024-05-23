@@ -103,6 +103,7 @@ class ComputerCreator
 	IRAM _ram;
 	IVideoCard _videoCard;
 
+	//factory method design pattern eklendikten sonra; verdiğimiz type a göre koşullu olarak bize bir factory nesnesi dönmüş oldu. kullanmadan önce ise nesneyi yukarıda kendim vermiştim Computer asus=creator.CreateComputer(new AsusFactory());. factory method da olay nesnein yalnızca telp edilmesi olduğu için bu patternı  kullnarak bunu sağlamış oldum. Computer asus = creator.CreateComputer(ComputerType.Asus);
 	public Computer CreateComputer(ComputerType computerType)
 	{
 		IComputerFactory computerFactory = computerType switch
