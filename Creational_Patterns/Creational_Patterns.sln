@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype_Design_Pattern_Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Pool_Design_Pattern_Pratic", "Object_Pool_Design_Pattern_Pratic\Object_Pool_Design_Pattern_Pratic.csproj", "{3C5058E8-FC87-4807-B5DD-2337BFAB8B02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Pool_Design_Pattern_Pratic2", "Object_Pool_Design_Pattern_Pratic2\Object_Pool_Design_Pattern_Pratic2.csproj", "{2517447F-DA39-4569-887F-B8202AB3DD4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{3C5058E8-FC87-4807-B5DD-2337BFAB8B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C5058E8-FC87-4807-B5DD-2337BFAB8B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C5058E8-FC87-4807-B5DD-2337BFAB8B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2517447F-DA39-4569-887F-B8202AB3DD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2517447F-DA39-4569-887F-B8202AB3DD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2517447F-DA39-4569-887F-B8202AB3DD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2517447F-DA39-4569-887F-B8202AB3DD4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
