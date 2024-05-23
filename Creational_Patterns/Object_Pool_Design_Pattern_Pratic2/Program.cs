@@ -4,12 +4,12 @@ using System.Collections.Concurrent;
 //ObjectPool nesnesine global ve tekil olarak erişebilmek için singleton pattern ekledim.
 
 
-ObjectPool<X> pools =  ObjectPool<X>.GetInstance;
-var x1 = pools.Get(() => new X()); 
-pools.Return(x1);
+ObjectPool<X> pool =  ObjectPool<X>.GetInstance;
+var x1 = pool.Get(() => new X()); 
+pool.Return(x1);
 
-var x2 = pools.Get(() => new X());
-pools.Return(x2);
+var x2 = pool.Get(() => new X());
+pool.Return(x2);
 
 Console.WriteLine();
 

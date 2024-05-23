@@ -4,13 +4,13 @@ using System.Collections.Concurrent;
 //Daha sonra bu classın içine istediğimiz nesneyi verebilecek bir metot, verdiğimiz nesneyi havuza ekleyecek bir metot ve bir de bu havuzu temsil eden bir koleksiyon eklemeliyiz.
 
 
-ObjectPool<X> pools= new ObjectPool<X>();
-var x1=pools.Get(() => new X()); //havuzda x1 nesnesi varsa getir. yoksa get fonskiyonunun iindeki expressiona verilip üretilecek.
+ObjectPool<X> pool= new ObjectPool<X>();
+var x1=pool.Get(() => new X()); //havuzda x1 nesnesi varsa getir. yoksa get fonskiyonunun iindeki expressiona verilip üretilecek.
 //....
-pools.Return(x1);// işimiz bittikten sonra x1 i havuza bırakıyoruz.
+pool.Return(x1);// işimiz bittikten sonra x1 i havuza bırakıyoruz.
 
-var x2= pools.Get(() => new X());
-pools.Return(x2);
+var x2= pool.Get(() => new X());
+pool.Return(x2);
 
 Console.WriteLine();
 

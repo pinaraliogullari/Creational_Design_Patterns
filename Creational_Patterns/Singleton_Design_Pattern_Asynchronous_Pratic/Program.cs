@@ -55,7 +55,7 @@ class Example
 	}
 
 	private static Example _example;
-	private static object _obj = new object();
+	private static object _obj = new ();
 
 	public static Example GetInstance
 	{
