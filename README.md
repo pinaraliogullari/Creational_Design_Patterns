@@ -3,3 +3,8 @@
 
 - Singleton Design Pattern
 - Multiton Design Pattern
+- Factory Method Design Pattern
+- Abstract Factory Design Pattern
+- Prototype Design Pattern
+- Object Pool Design Pattern
+- Builder Design Pattern
